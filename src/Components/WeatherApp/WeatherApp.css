@@ -1,11 +1,12 @@
 .container{
-    width: 900px;
     height: auto;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 10px;
     border-radius: 12px;
     background: rgba(225, 225, 225, .4);
+    padding: 20px;
+    width: 90%;
 }
 .container:before {
     content: "";
@@ -28,6 +29,17 @@
     background-repeat: no-repeat;
 }
 
+@media (min-width: 768px) {
+    .container {
+        width: 75%;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 60%;
+    }
+}
 .top-bar{
     display: flex;
     justify-content: center;
