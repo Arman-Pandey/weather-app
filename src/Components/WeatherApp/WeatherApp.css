@@ -15,7 +15,7 @@
     z-index: -1;
     display: block;
     background-size: 100% 100%;
-    background-image: url(D:\Project-2024\weather-app\weather-app\src\Components\Assets\9bdv.gif);
+    background-image: url(/src/Components/Assets/9bdv.gif);
     width: 150%;
     height: 150%;
     top: -20px;

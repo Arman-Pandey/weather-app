@@ -86,7 +86,7 @@ const WeatherApp = () => {
     const searchWeather = async () => {
         if (!searchData) return;
 
-        // Remove 'district' from the city name if present
+        // Removing 'district' Word 
         const cityName = searchData.label.replace(/district/gi, '').trim();
         let weatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&units=Metric&appid=${apiKey}`;
 
